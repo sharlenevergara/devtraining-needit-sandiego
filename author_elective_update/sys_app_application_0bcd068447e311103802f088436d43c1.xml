@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="DELETE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>NeedIt Task</name>
+        <order>100</order>
+        <roles>x_58872_needit.needit_task_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 01:53:30</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>0bcd068447e311103802f088436d43c1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Task</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_app_application_0bcd068447e311103802f088436d43c1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-29 01:53:30</sys_updated_on>
+        <title>NeedIt Task</title>
+        <view_name/>
+    </sys_app_application>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>2921236edb194d107527d7c8f49619a7</instance_id>
+        <instance_name>dev123174</instance_name>
+        <name>sys_app_application_0bcd068447e311103802f088436d43c1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application"><sys_app_application action="INSERT_OR_UPDATE"><active>true</active><category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category><description/><device_type>browser</device_type><hint/><name>NeedIt Task</name><order>100</order><roles>x_58872_needit.needit_task_user</roles><sys_class_name>sys_app_application</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-29 01:53:30</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>0bcd068447e311103802f088436d43c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>NeedIt Task</sys_name><sys_overrides/><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_app_application_0bcd068447e311103802f088436d43c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-29 01:53:30</sys_updated_on><title>NeedIt Task</title><view_name/></sys_app_application></record_update>]]></payload>
+        <payload_hash>1461541281</payload_hash>
+        <record_name>NeedIt Task</record_name>
+        <reverted_from/>
+        <source>f390623747d711103802f088436d434d</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 01:53:30</sys_created_on>
+        <sys_id>cbcd068447e311103802f088436d43c4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184c116d7590000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-29 01:53:30</sys_updated_on>
+        <type>Application Menu</type>
+        <update_guid>07cd068468e31110b27382afdd9c8ec4</update_guid>
+        <update_guid_history>07cd068468e31110b27382afdd9c8ec4:1461541281</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="NeedIt Task">6efd4a8447e311103802f088436d43b4</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 01:54:17</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_application">sys_app_application</sys_db_object>
+        <sys_id>a68680801ed942adbea4a601e03e6191</sys_id>
+        <sys_metadata>0bcd068447e311103802f088436d43c1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>NeedIt Task</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete display_value="">94872a8897db403e8ee69a431de2fca4</sys_scope_delete>
+        <sys_update_name>sys_app_application_0bcd068447e311103802f088436d43c1</sys_update_name>
+        <sys_update_version display_value="sys_app_application_0bcd068447e311103802f088436d43c1">cbcd068447e311103802f088436d43c4</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-29 01:54:17</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
