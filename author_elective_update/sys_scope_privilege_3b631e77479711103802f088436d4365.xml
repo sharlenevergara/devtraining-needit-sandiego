@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="DELETE">
+        <operation>execute</operation>
+        <source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-28 07:39:39</sys_created_on>
+        <sys_id>3b631e77479711103802f088436d4365</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: scripting</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_scope_privilege_3b631e77479711103802f088436d4365</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-28 07:39:39</sys_updated_on>
+        <target_name>Glide API: scripting</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</application>
+        <file_path/>
+        <instance_id>2921236edb194d107527d7c8f49619a7</instance_id>
+        <instance_name>dev123174</instance_name>
+        <name>sys_scope_privilege_3b631e77479711103802f088436d4365</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege"><sys_scope_privilege action="INSERT_OR_UPDATE"><operation>execute</operation><source_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</source_scope><status>allowed</status><sys_class_name>sys_scope_privilege</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2022-11-28 07:39:39</sys_created_on><sys_id>3b631e77479711103802f088436d4365</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Glide API: scripting</sys_name><sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package><sys_policy/><sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope><sys_update_name>sys_scope_privilege_3b631e77479711103802f088436d4365</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2022-11-28 07:39:39</sys_updated_on><target_name>Glide API: scripting</target_name><target_scope display_value="Global">global</target_scope><target_type>scriptable</target_type></sys_scope_privilege></record_update>]]></payload>
+        <payload_hash>-280144319</payload_hash>
+        <record_name>Glide API: scripting</record_name>
+        <reverted_from/>
+        <source>c2b97433475311103802f088436d4367</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-28 07:39:39</sys_created_on>
+        <sys_id>b3631e77479711103802f088436d4367</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>184bd2d63610000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-28 07:39:39</sys_updated_on>
+        <type>Cross scope privilege</type>
+        <update_guid>fb631e776b97111005f94aa9fad02666</update_guid>
+        <update_guid_history>fb631e776b97111005f94aa9fad02666:-280144319</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-28 08:29:43</sys_created_on>
+        <sys_db_object display_value="" name="sys_scope_privilege">sys_scope_privilege</sys_db_object>
+        <sys_id>021027d415f1479e810042e0bd97cd49</sys_id>
+        <sys_metadata>3b631e77479711103802f088436d4365</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Glide API: scripting</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_scope_delete/>
+        <sys_update_name>sys_scope_privilege_3b631e77479711103802f088436d4365</sys_update_name>
+        <sys_update_version display_value="sys_scope_privilege_3b631e77479711103802f088436d4365">b3631e77479711103802f088436d4367</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-28 08:29:43</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
