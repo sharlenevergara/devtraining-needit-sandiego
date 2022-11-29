@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_email">
+    <sys_script_email action="INSERT_OR_UPDATE">
+        <name>CountOverdueNeedItTasksAssignedTo</name>
+        <new_lines_to_html>false</new_lines_to_html>
+        <script><![CDATA[(function runMailScript( /* GlideRecord */ current, /* TemplatePrinter */ template,
+    /* Optional EmailOutbound */
+    email, /* Optional GlideRecord */ email_action,
+    /* Optional GlideRecord */
+    event) {
+
+    var rightNow = new GlideDateTime();
+
+    // Construct a GlideRecord query to find all NeedIt Task records with Due date
+    // field values in the past for the same Assigned to.  The records cannot be in the
+    // Closed state.
+    var gr = new GlideRecord('x_58872_needit_needit_task');
+    gr.addQuery('assigned_to', current.assigned_to);
+    gr.addQuery('due_date', '<=', rightNow);
+    gr.addQuery('state', '!=', 3);
+    gr.query();
+
+	//If the Assigned to has more than 1 overdue NeedIt task record, print the message to the notification. Otherwise, do not print.
+    var count = gr.getRowCount();
+    if (count > 1) {
+        template.print("In addition to this overdue NeedIt Task, you have " + (gr.getRowCount() - 1) + " more overdue NeedIt Tasks.");
+    }
+
+})(current, template, email, email_action, event);]]></script>
+        <sys_class_name>sys_script_email</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-11-29 07:37:56</sys_created_on>
+        <sys_id>249c9f84472b11103802f088436d4312</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>CountOverdueNeedItTasksAssignedTo</sys_name>
+        <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="NeedIt">6ead8e780f603200cd674f8ce1050ed1</sys_scope>
+        <sys_update_name>sys_script_email_249c9f84472b11103802f088436d4312</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-11-29 08:09:07</sys_updated_on>
+    </sys_script_email>
+</record_update>
