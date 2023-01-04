@@ -6,7 +6,7 @@
             <sys_class_name>sys_choice_set</sys_class_name>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2022-11-28 08:46:01</sys_created_on>
-            <sys_id>778c0b8447e711103802f088436d4391</sys_id>
+            <sys_id>aad3057a47e711103802f088436d4338</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>u_request_type</sys_name>
             <sys_package display_value="NeedIt" source="x_58872_needit">6ead8e780f603200cd674f8ce1050ed1</sys_package>
@@ -95,6 +95,106 @@
             <sys_updated_by>admin</sys_updated_by>
             <sys_updated_on>2022-11-28 08:46:01</sys_updated_on>
             <value>legal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Human Resources</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-03 02:35:09</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!(/</sys_domain_path>
+            <sys_id>5af66a9347c021103802f088436d4347</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-03 02:35:09</sys_updated_on>
+            <value>hr</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>true</inactive>
+            <label>Human Resources</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>0</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-03 02:35:09</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!(/</sys_domain_path>
+            <sys_id>9af6221747c021103802f088436d43f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-03 02:35:09</sys_updated_on>
+            <value>Human Resources</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Facilities</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>1</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-03 02:35:09</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!(/</sys_domain_path>
+            <sys_id>12f66a9347c021103802f088436d434a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-03 02:35:09</sys_updated_on>
+            <value>facilities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Legal</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>2</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-03 02:35:09</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!(/</sys_domain_path>
+            <sys_id>d2f66a9347c021103802f088436d434c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-03 02:35:09</sys_updated_on>
+            <value>legal</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_request_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>TPS Report</label>
+            <language>en</language>
+            <name>x_58872_needit_needit</name>
+            <sequence>3</sequence>
+            <synonyms/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2023-01-03 02:35:09</sys_created_on>
+            <sys_domain>c94122494a362312007f2ce5bd78768f</sys_domain>
+            <sys_domain_path>!!!/!!(/</sys_domain_path>
+            <sys_id>96f66a9347c021103802f088436d434e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2023-01-03 02:35:09</sys_updated_on>
+            <value>TPS Report</value>
         </sys_choice>
     </sys_choice>
 </record_update>
